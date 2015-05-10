@@ -60,7 +60,7 @@
         startupCap: 20, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: true, // true or false
-        chatLink: "https://rawgit.com/DSVILLA/BotVIP/master/lang/pt",
+        chatLink: "https://rawgit.com/DSVILLA/BotDS/master/bot/basicBot.js",
         maximumAfk: 60,			
         afkRemoval: false,
         maximumDc: 30,
@@ -113,6 +113,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/DSVILLA/Exercito-Bot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/DSVILLA/BotDS/master/bot/basicBot.js", extend);
 
 }).call(this);
