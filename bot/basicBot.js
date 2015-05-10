@@ -183,7 +183,7 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/DSVILLA/BotDS/master/basicBot.js",
+        scriptLink: "https://rawgit.com/DSVILLA/BotDS/blob/master/bot/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/DSVILLA/BotDS/master/lang/pt.json",
         chat: null,
