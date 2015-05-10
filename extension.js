@@ -113,6 +113,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/DSVILLA/BotDS/master/bot/basicBot.js", extend);
+    $.getScript("https://rawgit.com/DSVILLA/BotDS/master/bot1/basicBot.js", extend);
 
 }).call(this);
