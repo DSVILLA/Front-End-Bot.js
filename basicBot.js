@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/B1G-B0SS/basicBot-1/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/DSVILLA/BotDS/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -185,7 +185,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/B1G-B0SS/Exercito-Bot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/B1G-B0SS/basicBot-1/master/lang/pt.json",
+        chatLink: "https://rawgit.com/DSVILLA/BotDS/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "basicBot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/B1G-B0SS/basicBot-1/master/lang/pt.json",
+            chatLink: "https://rawgit.com/DSVILLA/BotDS/master/lang/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
@@ -217,7 +217,7 @@
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["pqs", "Por que eu quis, palhaço. "],
+                ["pqs", "Pai você não tem poder aqui by: bot malandraum. "],
                 ["op", "Esse video é repetido de mais. "],
                 ["history", "Esse video está no historico. "],
                 ["mix", "You played a mix, which is against the rules. "],
