@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/DSVILLA/BotDS/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/DSVILLA/BotDS/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -183,9 +183,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/DSVILLA/BotDS/master/bot1/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/DSVILLA/BotDS/bot1/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/DSVILLA/BotDS/master/lang/pt.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/DSVILLA/BotDS/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "basicBot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/DSVILLA/BotDS/master/lang/pt.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/DSVILLA/BotDS/lang/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
